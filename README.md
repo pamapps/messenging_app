@@ -1,5 +1,4 @@
-# Rayne Schaffer
-# Interview Project - Chat App
+# Messenging App V1
 
 # Description
    This is a chat application done via a web format. The project is made to run locally on a development machine.
