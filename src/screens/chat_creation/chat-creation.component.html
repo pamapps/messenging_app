@@ -1,0 +1,89 @@
+<div id="create-chat" class="mdl-shadow--2dp">
+   <h2 id="create-chat-heading">
+      Create Chat
+   </h2>
+   <p *ngIf="isGroupChat">When entering member names please separate names by spaces.</p>
+   <ul class="mdl-list">
+      <li class="mdl-list__item">
+         <span class="mdl-list__item-primary-content">
+         Channel
+      </span>
+         <span class="mdl-list__item-secondary-action">
+            <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="channelSwitch">
+               <input type="checkbox" id="channelSwitch" class="mdl-switch__input" [(ngModel)]="isChannel">
+               <span class="mdl-switch__label"></span>
+            </label>
+         </span>
+      </li>
+      <span [hidden]="isChannel">
+         <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+            Group Chat
+            </span>
+            <span class="mdl-list__item-secondary-action">
+               <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="groupChatSwitch">
+                  <input type="checkbox" id="groupChatSwitch" class="mdl-switch__input" [(ngModel)]="isGroupChat">
+                  <span class="mdl-switch__label"></span>
+               </label>
+            </span>
+         </li>
+
+         <span *ngIf="isGroupChat">
+            <li class="mdl-list__item">
+               <span class="mdl-list__item-primary-content">
+               Chat Members
+               </span>
+               <span class="mdl-list__item-secondary-action">
+                  <form action="#">
+                     <div class="mdl-textfield mdl-js-textfield">
+                        <input class="mdl-textfield__input" type="text" id="groupChatMemberNames" [(ngModel)]="chatMemberName" [ngModelOptions]="{standalone: true}">
+                        <label class="mdl-textfield__label" for="groupChatMemberNames" hidden>Chat Name</label>
+                     </div>
+                  </form>
+               </span>
+            </li>
+         </span>
+
+         <span *ngIf="!isGroupChat">
+            <li class="mdl-list__item">
+               <span class="mdl-list__item-primary-content">
+               Chat Member
+               </span>
+               <span class="mdl-list__item-secondary-action">
+                  <form action="#">
+                     <div class="mdl-textfield mdl-js-textfield">
+                        <input class="mdl-textfield__input" type="text" id="chatMemberName" [(ngModel)]="chatMemberName" [ngModelOptions]="{standalone: true}">
+                        <label class="mdl-textfield__label" for="chatMemberName" hidden>Chat Member Name</label>
+                     </div>
+                  </form>
+               </span>
+            </li>
+         </span>
+      </span>
+
+      <span *ngIf="isChannel || isGroupChat">
+         <li class="mdl-list__item">
+            <span class="mdl-list__item-primary-content">
+               Chat Name
+            </span>
+            <span class="mdl-list__item-secondary-action">
+               <form action="#">
+                  <div class="mdl-textfield mdl-js-textfield">
+                     <input class="mdl-textfield__input" type="text" id="chatName" [(ngModel)]="chatTitle" [ngModelOptions]="{standalone: true}" required>
+                     <label class="mdl-textfield__label" for="chatName" hidden>Chat Name</label>
+                  </div>
+               </form>
+            </span>
+         </li>
+      </span>
+   </ul>
+
+   <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" (click)="createChat()">
+      Create
+   </button>
+
+   <p style="color: red;">{{errorText}}</p>
+
+   <div class="mdl-progress mdl-js-progress mdl-progress__indeterminate" [hidden]="!loading"></div>
+
+</div>

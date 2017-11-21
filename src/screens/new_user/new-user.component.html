@@ -1,0 +1,72 @@
+<div id="new-user" class="mdl-shadow--2dp">
+   <h2 id="create-chat-heading">
+      Sign Up
+   </h2>
+   <p>Please enter a username with no spaces.</p>
+   <ul class="mdl-list">
+      <li class="mdl-list__item">
+         <span class="mdl-list__item-primary-content">
+         Username
+         </span>
+         <span class="mdl-list__item-secondary-action">
+            <form action="#">
+               <div class="mdl-textfield mdl-js-textfield">
+                  <input class="mdl-textfield__input" type="text" id="username" [(ngModel)]="username" [ngModelOptions]="{standalone: true}" required>
+                  <label class="mdl-textfield__label" for="username" hidden>Username</label>
+               </div>
+            </form>
+         </span>
+      </li>
+
+      <li class="mdl-list__item">
+         <span class="mdl-list__item-primary-content">
+         Email Address
+         </span>
+         <span class="mdl-list__item-secondary-action">
+            <form action="#">
+               <div class="mdl-textfield mdl-js-textfield">
+                  <input class="mdl-textfield__input" type="text" id="email" [(ngModel)]="email" [ngModelOptions]="{standalone: true}" required>
+                  <label class="mdl-textfield__label" for="email" hidden>Email Address</label>
+               </div>
+            </form>
+         </span>
+      </li>
+
+      <li class="mdl-list__item">
+         <span class="mdl-list__item-primary-content">
+            Password
+         </span>
+         <span class="mdl-list__item-secondary-action">
+            <form action="#">
+               <div class="mdl-textfield mdl-js-textfield">
+                  <input class="mdl-textfield__input" type="password" id="password" [(ngModel)]="password" [ngModelOptions]="{standalone: true}" required>
+                  <label class="mdl-textfield__label" for="password" hidden>Password</label>
+               </div>
+            </form>
+         </span>
+      </li>
+
+      <li class="mdl-list__item">
+         <span class="mdl-list__item-primary-content">
+            Verify Password
+         </span>
+         <span class="mdl-list__item-secondary-action">
+            <form action="#">
+               <div class="mdl-textfield mdl-js-textfield">
+                  <input class="mdl-textfield__input" type="password" id="verifPassword" [(ngModel)]="verifPassword" [ngModelOptions]="{standalone: true}" required>
+                  <label class="mdl-textfield__label" for="verifPassword" hidden>Verify Password</label>
+               </div>
+            </form>
+         </span>
+      </li>
+   </ul>
+
+   <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" (click)="createNewUser()">
+      Sign Up
+   </button>
+
+   <p style="color: red;">{{errorText}}</p>
+
+   <div class="mdl-progress mdl-js-progress mdl-progress__indeterminate" [hidden]="!loading"></div>
+
+</div>

@@ -1,0 +1,20 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+   "editor.detectIndentation": false,
+   "editor.tabSize": 3,
+   "search.exclude": {
+      "**/node_modules": true,
+      "**/plugins": true,
+      "**/www": true,
+      "**/bower_components": true,
+      "**/tmp": true,
+      ".tmp/**": true,
+      "platforms/**": true,
+      "**/coverage": true
+   },
+   "typescript.tsdk": "node_modules/typescript/lib",
+   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false
+}

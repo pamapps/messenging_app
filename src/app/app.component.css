@@ -1,0 +1,13 @@
+.all-width{
+   margin-left: 0px;
+   margin-right: 0px;
+   width: 100%;
+}
+
+.no-width{
+   width: 0%;
+}
+
+.mdl_layout___drawer{
+   background: #d1d1e0;
+}

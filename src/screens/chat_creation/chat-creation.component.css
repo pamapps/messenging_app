@@ -1,0 +1,12 @@
+#create-chat{
+   background: white;
+   text-align: center;
+
+   margin: auto;
+   margin-top: 10%;
+   padding: 1rem 2rem;
+
+   max-width: 1000px;
+   min-width: 200px;
+   width: 33%;
+}

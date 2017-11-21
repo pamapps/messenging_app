@@ -1,0 +1,29 @@
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+   <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+         <span class="mdl-layout-title">{{chatName}}</span>
+         <div class="mdl-layout-spacer"></div>
+         <nav class="mdl-navigation chat-nav-links">
+            <a class="mdl-navigation__link" (click)="leaveChat()">Leave Chat</a>
+         </nav>
+      </div>
+   </header>
+   <main class="mdl-layout__content" id="chat-screen">
+      <span *ngIf="messages">
+         <span *ngFor="let m of messages">
+            <chat-bubble [message]="m" [fromSelf]="userId === m.senderID"></chat-bubble>
+         </span>
+      </span>
+
+      <form action="#" id="message-input" *ngIf="!isChannel || canSendChannelMessage">
+         <div class="mdl-textfield mdl-js-textfield">
+            <textarea class="mdl-textfield__input" type="text" rows="1" id="message-text" [(ngModel)]="sendingMessage" [ngModelOptions]="{standalone: true}"></textarea>
+            <label class="mdl-textfield__label" for="message-text">Message</label>
+         </div>
+         <label class="mdl-button mdl-js-button mdl-button--icon" for="message-text" (click)="sendMessage()">
+            <i class="material-icons">send</i>
+         </label>
+      </form>
+
+   </main>
+</div>

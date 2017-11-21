@@ -1,0 +1,9 @@
+<div class="mdl-layout-title side-pane-username"><span>{{username}}</span></div>
+<nav class="mdl-navigation">
+   <div *ngFor="let c of chatList">
+      <a class="mdl-navigation__link" (click)="navigateChat(c.chatId)">{{c.chatTitle}}</a>
+   </div>
+   <a class="mdl-navigation__link other-action" (click)="subscribeChannel()">Subscribe to a Channel</a>
+   <a class="mdl-navigation__link other-action" (click)="createNewChat()">New Chat</a>
+   <a class="mdl-navigation__link other-action" (click)="logout()">Logout</a>
+</nav>

@@ -1,0 +1,20 @@
+<div id="create-chat" class="mdl-shadow--2dp">
+   <h2 id="create-chat-heading">
+      Subscribe to a Channel
+   </h2>
+   <ul class="mdl-list">
+      <li class="mdl-list__item" *ngFor="let channel of channelList">
+         <span class="mdl-list__item-primary-content">
+            {{channel.chatTitle}}
+         </span>
+         <span class="mdl-list__item-secondary-action">
+            <i class="material-icons" (click)="subscribeChannel(channel.chatId)">add_circle_outline</i>
+         </span>
+      </li>
+   </ul>
+
+   <p style="color: red;">{{errorText}}</p>
+
+   <div class="mdl-progress mdl-js-progress mdl-progress__indeterminate" [hidden]="!loading"></div>
+
+</div>

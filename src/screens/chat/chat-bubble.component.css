@@ -1,0 +1,38 @@
+.chat-bubble{
+   background:  #85e0e0;
+   border-radius: 15px;
+   margin-left: 10px;
+
+   margin-bottom: 15px;
+   margin-top: 15px;
+
+   min-width: 100px;
+   width: 40%;
+   max-width: 80%;
+
+   overflow: visible;
+}
+
+.chat-bubble > .mdl-card__actions {
+   font-size: 1rem;
+   padding: 10px;
+   text-align: right;
+}
+
+.chat-bubble > .mdl-card__title {
+   padding: 10px;
+}
+
+.chat-bubble > .mdl-card__title > h2 {
+   font-size: 1.1rem;
+   font-weight: bold;
+}
+
+.from-right{
+   background: #ff80aa;
+
+   margin: auto;
+   margin-bottom: 15px;
+   margin-top: 15px;
+   margin-right: 10px;
+}

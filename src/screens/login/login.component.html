@@ -1,0 +1,36 @@
+<div id="login-card" class="mdl-shadow--2dp">
+   <h2>Login</h2>
+   <div>
+      Please enter your login credentials
+      <br>
+      <form action="#">
+         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" required id="username" [(ngModel)]="username" [ngModelOptions]="{standalone: true}">
+            <label class="mdl-textfield__label" for="username">Username</label>
+            <span class="mdl-textfield__error">Username is required</span>
+         </div>
+         <br>
+         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="password" required id="password" [(ngModel)]="password" [ngModelOptions]="{standalone: true}">
+            <label class="mdl-textfield__label" for="password">Password</label>
+            <span class="mdl-textfield__error">Password is required</span>
+         </div>
+      </form>
+      
+      <br>
+
+      <p style="color: red;">{{errorText}}</p>
+
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" (click)="login()">
+         Login
+      </button>
+      <br>
+
+      <div class="mdl-progress mdl-js-progress mdl-progress__indeterminate" [hidden]="!loading"></div>
+
+      <br>
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary" (click)="newUser()">
+         New User
+      </button>
+   </div>
+</div>

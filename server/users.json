@@ -1,0 +1,44 @@
+[
+   {
+      "username": "test-user",
+      "userId": "1",
+      "password": "password",
+      "email": "email@email.com",
+      "lastToken": ""
+   },
+   {
+      "username": "test-user-friend",
+      "userId": "2",
+      "password": "password",
+      "email": "emailtest@email.com",
+      "lastToken": ""
+   },
+   {
+      "username": "example-user-1",
+      "userId": "3",
+      "password": "password",
+      "email": "emailtest@email.com",
+      "lastToken": ""
+   },
+   {
+      "username": "example-user-2",
+      "userId": "4",
+      "password": "password",
+      "email": "emailtest@email.com",
+      "lastToken": ""
+   },
+   {
+      "username": "example-user-3",
+      "userId": "5",
+      "password": "password",
+      "email": "emailtest@email.com",
+      "lastToken": ""
+   },
+   {
+      "username": "example-user-4",
+      "userId": "6",
+      "password": "password",
+      "email": "emailtest@email.com",
+      "lastToken": ""
+   }
+]

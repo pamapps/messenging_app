@@ -1,0 +1,49 @@
+[
+   {
+      "chatTitle": "",
+      "chatId": "1",
+      "userIds": [
+         "1",
+         "4"
+      ],
+      "creatorId": "4",
+      "isChannel": false,
+      "isGroupChat": false
+   },
+   {
+      "chatTitle": "An Example Group",
+      "chatId": "2",
+      "userIds": [
+         "1",
+         "3",
+         "5"
+      ],
+      "creatorId": "3",
+      "isChannel": false,
+      "isGroupChat": true
+   },
+   {
+      "chatTitle": "Another Group",
+      "chatId": "3",
+      "userIds": [
+         "1",
+         "2",
+         "3"
+      ],
+      "creatorId": "3",
+      "isChannel": false,
+      "isGroupChat": true
+   },
+   {
+      "chatTitle": "Here's a Channel",
+      "chatId": "4",
+      "userIds": [
+         "1",
+         "2",
+         "4"
+      ],
+      "creatorId": "2",
+      "isChannel": true,
+      "isGroupChat": false
+   }
+]

@@ -1,0 +1,23 @@
+.side-pane-username{
+   align-items: center;
+   background-color: #ff4081;
+   color: white;
+   display: flex;
+   height: 64px;
+   justify-content: center;
+   text-align: center;
+   vertical-align: center;
+   width: 100%;
+}
+
+#other-nav-actions{
+   border-bottom: 3px solid darkgray;
+   border-top: 3px solid darkgray;
+   bottom: 0px;
+   margin-top: 3rem;
+   position: relative;
+}
+
+.other-action {
+   font-weight: bold;
+}

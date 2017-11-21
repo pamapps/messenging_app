@@ -1,0 +1,36 @@
+#chat-screen{
+   margin-bottom: 80px;
+}
+
+#message-input{
+   align-items: center;
+   background: lightgray;
+   bottom: 0px;
+   display: flex;
+   height: 80px;
+   padding-left: 13px;
+   position: fixed;
+   width: 100%;
+
+   margin-bottom: 0px;
+}
+
+#message-input > .mdl-textfield{
+   background: lightgray;
+   bottom: 0px;
+   width: 85%;
+
+   padding-left: 0px;
+   padding-right: 10px;
+
+   margin-bottom: 0px;
+}
+
+#message-input > .mdl-textfield___input{
+   padding-left: 15px;
+   padding-right: 10px;
+}
+
+.chat-nav-links {
+   cursor: pointer;
+}

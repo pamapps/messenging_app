@@ -1,0 +1,122 @@
+[
+   {
+      "sender": "test-user",
+      "timestamp": "Tue Aug 15 2017 00:42:32 GMT-0400 (Eastern Daylight Time)",
+      "text": "This is a test message to test messages and test the placement of such.",
+      "messageID": "1",
+      "senderID": "1",
+      "chatId": "1"
+   },
+   {
+      "sender": "test-user",
+      "timestamp": "Tue Aug 15 2017 09:42:32 GMT-0400 (Eastern Daylight Time)",
+      "text": "This is a test message to test messages and test the placement of such.",
+      "messageID": "2",
+      "senderID": "1",
+      "chatId": "2"
+   },
+   {
+      "sender": "example-user-2",
+      "timestamp": "Tue Aug 15 2017 12:43:32 GMT-0400 (Eastern Daylight Time)",
+      "text": "This is a test message to test messages and test the placement of such.",
+      "messageID": "3",
+      "senderID": "4",
+      "chatId": "2"
+   },
+   {
+      "sender": "example-user-2",
+      "timestamp": "Tue Aug 15 2017 13:42:32 GMT-0400 (Eastern Daylight Time)",
+      "text": "This is a feftest message to test messages and test the placement of such.",
+      "messageID": "4",
+      "senderID": "4",
+      "chatId": "1"
+   },
+   {
+      "sender": "test-user",
+      "timestamp": "Tue Aug 15 2017 23:42:32 GMT-0400 (Eastern Daylight Time)",
+      "text": "This is a test mfefefewfeessage to test messages and test the placement of such.",
+      "messageID": "5",
+      "senderID": "1",
+      "chatId": "1"
+   },
+      {
+      "sender": "test-user",
+      "timestamp": "Tue Aug 15 2017 00:42:32 GMT-0400 (Eastern Daylight Time)",
+      "text": "This is a test message to test messages and test the placement of such.",
+      "messageID": "6",
+      "senderID": "1",
+      "chatId": "1"
+   },
+   {
+      "sender": "test-user",
+      "timestamp": "Tue Aug 15 2017 09:43:32 GMT-0400 (Eastern Daylight Time)",
+      "text": "This is a test message to test messages and test the placement of such.",
+      "messageID": "7",
+      "senderID": "1",
+      "chatId": "2"
+   },
+   {
+      "sender": "example-user-2",
+      "timestamp": "Tue Aug 15 2017 12:42:32 GMT-0400 (Eastern Daylight Time)",
+      "text": "This is a test message to test messages and test the placement of such.",
+      "messageID": "8",
+      "senderID": "4",
+      "chatId": "2"
+   },
+   {
+      "sender": "example-user-2",
+      "timestamp": "Tue Aug 15 2017 13:42:32 GMT-0400 (Eastern Daylight Time)",
+      "text": "This is a feftest message to test messages and test the placement of such.",
+      "messageID": "9",
+      "senderID": "4",
+      "chatId": "1"
+   },
+   {
+      "sender": "test-user",
+      "timestamp": "Tue Aug 15 2017 23:42:32 GMT-0400 (Eastern Daylight Time)",
+      "text": "This is a test mfefefewfeessage to test messages and test the placement of such.",
+      "messageID": "10",
+      "senderID": "1",
+      "chatId": "1"
+   },
+   {
+      "sender": "test-user-friend",
+      "timestamp": "Tue Aug 15 2017 21:42:32 GMT-0400 (Eastern Daylight Time)",
+      "text": "This is a test message in a channel.",
+      "messageID": "11",
+      "senderID": "2",
+      "chatId": "4"
+   },
+   {
+      "sender": "test-user-friend",
+      "timestamp": "Tue Aug 15 2017 23:42:32 GMT-0400 (Eastern Daylight Time)",
+      "text": "This is a test meessage to test messages and test the placement of such.",
+      "messageID": "12",
+      "senderID": "2",
+      "chatId": "4"
+   },
+   {
+      "sender": "test-user",
+      "timestamp": "Tue Aug 15 2017 23:42:32 GMT-0400 (Eastern Daylight Time)",
+      "text": "This is a test meessage to test messages and test the placement of such.",
+      "messageID": "13",
+      "senderID": "1",
+      "chatId": "3"
+   },
+   {
+      "sender": "test-user-friend",
+      "timestamp": "Tue Aug 15 2017 23:43:32 GMT-0400 (Eastern Daylight Time)",
+      "text": "This is a test meessage to test messages and test the placement of such.",
+      "messageID": "14",
+      "senderID": "2",
+      "chatId": "3"
+   },
+   {
+      "sender": "example-user-1",
+      "timestamp": "Tue Aug 15 2017 23:44:32 GMT-0400 (Eastern Daylight Time)",
+      "text": "This is a test meessage to test messages and test the placement of such.",
+      "messageID": "15",
+      "senderID": "3",
+      "chatId": "3"
+   }
+]

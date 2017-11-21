@@ -1,0 +1,12 @@
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer">
+   <div class="mdl-layout__drawer" [class.no-width]="!username">
+      <span *ngIf="username">
+         <side-pane></side-pane>
+      </span>
+   </div>
+   <main class="mdl-layout__content" [class.all-width]="!username">
+      <div class="page-content">
+         <router-outlet></router-outlet>
+      </div>
+   </main>
+</div>
