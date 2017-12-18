@@ -20,7 +20,7 @@
             <textarea class="mdl-textfield__input" type="text" rows="1" id="message-text" [(ngModel)]="sendingMessage" [ngModelOptions]="{standalone: true}"></textarea>
             <label class="mdl-textfield__label" for="message-text">Message</label>
          </div>
-         <label class="mdl-button mdl-js-button mdl-button--icon" for="message-text" (click)="sendMessage()">
+         <label class="mdl-button mdl-js-button mdl-button--icon" id="sendmessage" for="message-text" (click)="sendMessage()">
             <i class="material-icons">send</i>
          </label>
       </form>

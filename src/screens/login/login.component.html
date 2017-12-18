@@ -16,12 +16,12 @@
             <span class="mdl-textfield__error">Password is required</span>
          </div>
       </form>
-      
+
       <br>
 
       <p style="color: red;">{{errorText}}</p>
 
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" (click)="login()">
+      <button id="loginbutton" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" (click)="login()">
          Login
       </button>
       <br>
@@ -29,7 +29,7 @@
       <div class="mdl-progress mdl-js-progress mdl-progress__indeterminate" [hidden]="!loading"></div>
 
       <br>
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary" (click)="newUser()">
+      <button id="newuser" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary" (click)="newUser()">
          New User
       </button>
    </div>
