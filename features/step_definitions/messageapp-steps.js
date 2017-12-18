@@ -23,7 +23,7 @@ var myStepDefinitionsWrapper = function () {
     //------------------------------------------------------------------------------------
 
     this.Before(function (scenario, callback) {
-        driver = this.driver;   // from world.js -- this is World.driver !?!?!?
+        driver = this.driver;   // from world.js -- this is World.driver
         callback();
     });
 
