@@ -6,7 +6,8 @@
     "ng": "ng",
     "start": "ng serve --open",
     "build": "ng build",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "e2e": "ng e2e --proxy-config proxy.conf.json"
   },
   "private": true,
   "dependencies": {

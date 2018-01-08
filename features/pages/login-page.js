@@ -59,7 +59,7 @@ LoginPage.prototype.login = function (userName, password) {
         log.info("Entered password, now click submit button ...");
         return self.login_button.click();
     }).then(function () {
-        log.info("Completed login , clicked the submit button, return true.");
+        log.info("Completed login , clicked the login button, return true.");
         return true;
     });
 };

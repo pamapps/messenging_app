@@ -100,18 +100,18 @@ assert.callback = undefined;
 
 
 
-// module.exports = {
-//
-//     // remove leading and trailing spaces from a string
-//     trim: trim,
-//
-//     parseMetricPath: function (string) {
-//         return MetricPath.parse(string);
-//     },
-//
-//     pathStringsEqual: function (string1, string2) {
-//         return MetricPath.stringsEqual(string1, string2);
-//     },
-//
-//     assert: assert
-// };
+module.exports = {
+
+    // remove leading and trailing spaces from a string
+    trim: trim,
+
+    // parseMetricPath: function (string) {
+    //     return MetricPath.parse(string);
+    // },
+    //
+    // pathStringsEqual: function (string1, string2) {
+    //     return MetricPath.stringsEqual(string1, string2);
+    // },
+    //
+    assert: assert
+};

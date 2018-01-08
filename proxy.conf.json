@@ -1,0 +1,13 @@
+{
+  "/ix/api": {
+    "target": "http://localhost:80",
+    "logLevel": "debug",
+    "secure": false
+  },
+  "/ix/api/security": {
+    "target": "http://localhost:80",
+    "logLevel": "debug",
+    "secure": false
+  }
+
+}
